@@ -1,0 +1,102 @@
+.adheader {
+	width:100%;
+	display:block;
+}
+.toptext {
+	text-align: center;
+	width: 17em;
+	vertical-align: top;
+	display: inline-block;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin: 0px;
+}
+.topban1 {
+	padding 0px 2px; 
+	display: inline-block;
+	font-size: 1.15em;
+	max-width:100%;
+}
+.topban1 a:link, .topban1 a:visited, .topban1 a:link, .topban1 a:visited {
+	font-weight:bold;
+	color: #5B5BFF;
+	font-size: 1.15em;
+}
+/* topban2 is the style for banner ads that are accompanied by top text ads. The banner is
+hidden in sub-desktop formats to make way for the paid-for text ads */
+.topban2 { max-width:100%;
+/*display:none;*/ }
+@media only screen and (min-width: 769px) {
+.topban2 {
+	padding 0px 2px; 
+	vertical-align: top;
+	display: inline-block;
+	font-size: 1.15em;
+}
+.topban2 a:link, .topban2 a:visited, .topban2 a:link, .topban2 a:visited {
+	font-weight:bold;
+	color: #5B5BFF;
+	font-size: 1.15em;
+}
+}
+
+.topnotext {
+	width:18em;
+	padding-top: 2px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	margin: 0px;
+}
+.foottab {
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.foottext a:link, .foottext a:visited, .toptext a:link, .toptext a:visited {
+	font-weight:bold;
+	color: #5B5BFF;
+	font-size: 1.15em;
+} 
+.adheader {
+	background-color: #E8E6E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.7em;
+	color: #000;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/grey.gif);
+	background-repeat: repeat;
+	clear: both;
+	overflow: hidden;
+	border-top:1px solid #FFF;
+}
+.sidead {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.foottext{
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	border:1px solid #FFF;
+	width:21em;
+	max-width:100%;
+	padding:2px 3px;
+}
+.adfooter {
+	background-color: #E8E6E1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+	padding: 0px;
+	background-image: url(../images/grey.gif);
+	background-repeat: repeat;
+	width: 100%;
+	overflow: hidden;
+}
